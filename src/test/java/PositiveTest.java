@@ -42,8 +42,10 @@ public class PositiveTest {
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79999999999");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         driver.findElement(By.cssSelector("[button.button]")).click();
-        var actualText = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
-        assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", actualText);
+        String expected = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
+        String actual = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
+        //var actualText = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
+       assertEquals(expected, actual);
     }
 
 }
