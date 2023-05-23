@@ -15,8 +15,7 @@ public class PositiveTest {
 
     @BeforeAll
     public static void setupAll() {
-        //System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-        WebDriverManager.chromedriver().setup();
+                WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
@@ -24,7 +23,7 @@ public class PositiveTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get("http://localhost:9999");
     }
@@ -44,8 +43,7 @@ public class PositiveTest {
         driver.findElement(By.className("button")).click();
         String expected = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
         String actual = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
-        //var actualText = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText().trim();
-       assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
 }
