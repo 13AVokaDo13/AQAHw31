@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac280633-e263-4695-baef-dc118414429c" name="Changes" comment="commit with readme.md">
+    <list default="true" id="ac280633-e263-4695-baef-dc118414429c" name="Changes" comment="commit with use expected and actual">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PositiveTest.java" afterDir="false" />
     </list>
@@ -93,12 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684763315301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit with use expected and actual">
+      <created>1684766242304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684766242304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit with readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit with readme.md" />
+    <MESSAGE value="commit with use expected and actual" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit with use expected and actual" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -106,42 +114,37 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
           <line>40</line>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
           <line>41</line>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
           <line>42</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
           <line>43</line>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
           <line>44</line>
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
           <line>45</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PositiveTest.java</url>
           <line>47</line>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
